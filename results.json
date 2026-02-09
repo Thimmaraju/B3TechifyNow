@@ -96,13 +96,13 @@
   },
   "suites": [
     {
-      "title": "PIM\\login.spec.js",
-      "file": "PIM/login.spec.js",
+      "title": "demoqa.spec.js",
+      "file": "demoqa.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Verify Login with Valid Credentials",
+          "title": "Verify TextBox ",
           "ok": true,
           "tags": [],
           "tests": [
@@ -110,32 +110,25 @@
               "timeout": 45000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
               "results": [
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 15714,
+                  "duration": 13924,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Lauched URL \n"
-                    },
-                    {
-                      "text": "Username Entered \n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-02-06T14:48:48.981Z",
+                  "startTime": "2026-02-09T15:13:13.128Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\PIM-login-Verify-Login-with-Valid-Credentials-Microsoft-Edge\\test-finished-1.png"
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\demoqa-Verify-TextBox--Google-Chrome\\test-finished-1.png"
                     }
                   ]
                 }
@@ -143,18 +136,18 @@
               "status": "expected"
             }
           ],
-          "id": "3763e2c1abf983ff9958-71f53e1ebe804754e3b9",
-          "file": "PIM/login.spec.js",
-          "line": 5,
-          "column": 7
+          "id": "f6d95a3632ad4f8e3ac8-b3fc7386ab5a02fdd03b",
+          "file": "demoqa.spec.js",
+          "line": 8,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-06T14:48:42.404Z",
-    "duration": 22488.338,
+    "startTime": "2026-02-09T15:13:05.415Z",
+    "duration": 21902.395000000004,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

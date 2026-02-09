@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test';
-import { faker } from '@faker-js/faker';
 
 test('Verify admin User can add Employee', async ({ page }) => {
 
@@ -20,9 +19,11 @@ test('Verify admin User can add Employee', async ({ page }) => {
     await page.locator("(//a[@class='oxd-main-menu-item'])[2]").click()
     console.log("Cliked on PIM")
     await page.locator("//a[normalize-space(text())='Add Employee']").click()
-    await page.locator("input[name='firstName']").fill(faker.person.firstName())
-    await page.locator("input[name='lastName']").fill(faker.person.lastName())
-    await page.locator("(//input[@class='oxd-input oxd-input--active'])[2]").fill(faker.string.alpha(5))
+     const randomchars = (Math.random() + 1).toString(36).substring(7);
+    await page.locator("input[name='firstName']").fill("Raju"+randomchars)
+    await page.locator("input[name='lastName']").fill("G"+randomchars)
+    console.log(randomchars)
+    await page.locator("(//input[@class='oxd-input oxd-input--active'])[2]").fill(randomchars)
     await page.locator("button[type='submit']").click()
 
     await expect(page.locator("//h6[text()='Personal Details']")).toBeVisible({ timeout: 60000 })
