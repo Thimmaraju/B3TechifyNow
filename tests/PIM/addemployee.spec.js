@@ -20,7 +20,7 @@ test('Verify admin User can add Employee', async ({ page }) => {
     console.log("Cliked on PIM")
     await page.locator("//a[normalize-space(text())='Add Employee']").click()
      const randomchars = (Math.random() + 1).toString(36).substring(7);
-    await page.locator("input[name='firstName']").fill("Raju"+randomchars)
+    await page.locator('input[name="firstName"]').fill("Raju"+randomchars)
     await page.locator("input[name='lastName']").fill("G"+randomchars)
     console.log(randomchars)
     await page.locator("(//input[@class='oxd-input oxd-input--active'])[2]").fill(randomchars)
