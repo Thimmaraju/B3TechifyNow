@@ -17,8 +17,12 @@ test.describe("Login functionality", () => {
     await page.getByRole('textbox', { name: 'Username' }).fill('Admin');
     await page.getByRole('textbox', { name: 'Password' }).click();
     await page.getByRole('textbox', { name: 'Password' }).fill('admin123');
-    await page.getByRole('button', { name: 'Login' }).click();
+    await page.getByRole("button", { name: 'Login' }).click();
     await expect(page.getByRole('heading', { name: 'Dashboard' })).toBeVisible();
+
+
   });
 
-  
+//Accebility testing 
+
+//ARIA standards 
