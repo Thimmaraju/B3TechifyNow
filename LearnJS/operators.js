@@ -217,6 +217,8 @@ vehiclestatus = paymentdone ? status2 : status1
 
 console.log(vehiclestatus)
 
+console.log(3+4+5+"6"+5+7) // 12657
+
 // Conditional statements 
 
 // Loops 
