@@ -130,23 +130,23 @@ console.log(!true)
 
 // if marks >35 and <= 60 pass
 
-// let marks = 34;
+let marks = 34;
 
-// if (marks > 90 && marks <= 100) {
-//     console.log("Grade: A+");
-// } 
-// else if (marks > 70 && marks <= 90) {
-//     console.log("Grade: A");
-// } 
-// else if (marks > 60 && marks <= 70) {
-//     console.log("Grade: First Class");
-// } 
-// else if (marks > 35 && marks <= 60) {
-//     console.log("Grade: Pass");
-// } 
-// else {
-//     console.log("Fail");
-// }
+if (marks > 90 && marks <= 100) {
+    console.log("Grade: A+");
+} 
+else if (marks > 70 && marks <= 90) {
+    console.log("Grade: A");
+} 
+else if (marks > 60 && marks <= 70) {
+    console.log("Grade: First Class");
+} 
+else if (marks > 35 && marks <= 60) {
+    console.log("Grade: Pass");
+} 
+else {
+    console.log("Fail");
+}
 
 // 3. Comparision operators 
 

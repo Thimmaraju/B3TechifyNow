@@ -96,13 +96,13 @@
   },
   "suites": [
     {
-      "title": "admin\\addjob.spec.js",
-      "file": "admin/addjob.spec.js",
+      "title": "localapp.spec.js",
+      "file": "localapp.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Verify admin User can add Job Title",
+          "title": "Verify Login with Valid Credentials - 1",
           "ok": true,
           "tags": [],
           "tests": [
@@ -114,37 +114,21 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 39258,
+                  "duration": 12814,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "{\n  jobtitle: \u001b[32m'RajuTitle '\u001b[39m,\n  jobdescription: \u001b[32m'Automation Scriptting  1234'\u001b[39m\n}\n"
-                    },
-                    {
-                      "text": "Launched URL\n"
-                    },
-                    {
-                      "text": "Username Entered\n"
-                    },
-                    {
-                      "text": "Password Entered\n"
-                    },
-                    {
-                      "text": "Click on Login Button\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-02-10T14:17:08.314Z",
+                  "startTime": "2026-02-20T15:01:47.606Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\admin-addjob-Verify-admin-User-can-add-Job-Title-Google-Chrome\\test-finished-1.png"
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\localapp-Verify-Login-with-Valid-Credentials---1-Google-Chrome\\test-finished-1.png"
                     }
                   ]
                 }
@@ -152,19 +136,379 @@
               "status": "expected"
             }
           ],
-          "id": "740c6203abfa7a12ca66-cb0ab33d2b2c34ccb313",
-          "file": "admin/addjob.spec.js",
-          "line": 5,
-          "column": 6
+          "id": "aaef6c38035a562fb522-e87f130da55484bb3c59",
+          "file": "localapp.spec.js",
+          "line": 21,
+          "column": 9
+        },
+        {
+          "title": "Verify Login with Valid Credentials - 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10718,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-20T15:02:03.030Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\localapp-Verify-Login-with-Valid-Credentials---2-Google-Chrome\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aaef6c38035a562fb522-e1ada1a593156813188e",
+          "file": "localapp.spec.js",
+          "line": 21,
+          "column": 9
+        },
+        {
+          "title": "Verify Login with Valid Credentials - 3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12561,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-20T15:02:13.823Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\localapp-Verify-Login-with-Valid-Credentials---3-Google-Chrome\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aaef6c38035a562fb522-bc4bdb2d35321cee1c11",
+          "file": "localapp.spec.js",
+          "line": 21,
+          "column": 9
+        },
+        {
+          "title": "Verify Login with Valid Credentials - 4",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15832,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-20T15:02:26.425Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\localapp-Verify-Login-with-Valid-Credentials---4-Google-Chrome\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aaef6c38035a562fb522-82d4f3f1f0fb8adc7473",
+          "file": "localapp.spec.js",
+          "line": 21,
+          "column": 9
+        },
+        {
+          "title": "Verify Login with Valid Credentials - 5",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12351,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-20T15:02:42.288Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\localapp-Verify-Login-with-Valid-Credentials---5-Google-Chrome\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aaef6c38035a562fb522-05e047ff197086167830",
+          "file": "localapp.spec.js",
+          "line": 21,
+          "column": 9
+        },
+        {
+          "title": "Verify Login with Valid Credentials - 6",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13540,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-20T15:02:54.670Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\localapp-Verify-Login-with-Valid-Credentials---6-Google-Chrome\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aaef6c38035a562fb522-21d510ca645b890938b3",
+          "file": "localapp.spec.js",
+          "line": 21,
+          "column": 9
+        },
+        {
+          "title": "Verify Login with Valid Credentials - 7",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14339,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-20T15:03:08.255Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\localapp-Verify-Login-with-Valid-Credentials---7-Google-Chrome\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aaef6c38035a562fb522-049056519ab437cde19f",
+          "file": "localapp.spec.js",
+          "line": 21,
+          "column": 9
+        },
+        {
+          "title": "Verify Login with Valid Credentials - 8",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11541,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-20T15:03:22.613Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\localapp-Verify-Login-with-Valid-Credentials---8-Google-Chrome\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aaef6c38035a562fb522-a3c201fe396b16f12616",
+          "file": "localapp.spec.js",
+          "line": 21,
+          "column": 9
+        },
+        {
+          "title": "Verify Login with Valid Credentials - 9",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9408,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-20T15:03:34.179Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\localapp-Verify-Login-with-Valid-Credentials---9-Google-Chrome\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aaef6c38035a562fb522-7aef27f9a9156ecfa764",
+          "file": "localapp.spec.js",
+          "line": 21,
+          "column": 9
+        },
+        {
+          "title": "Verify Login with Valid Credentials - 10",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9881,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-20T15:03:43.632Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\localapp-Verify-Login-with-Valid-Credentials---10-Google-Chrome\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aaef6c38035a562fb522-7f0cb1e5546898841da9",
+          "file": "localapp.spec.js",
+          "line": 21,
+          "column": 9
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-10T14:17:01.201Z",
-    "duration": 46621.69999999995,
-    "expected": 1,
+    "startTime": "2026-02-20T15:01:39.128Z",
+    "duration": 134686.152,
+    "expected": 10,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

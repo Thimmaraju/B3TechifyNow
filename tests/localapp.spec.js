@@ -8,10 +8,17 @@ test.describe("Login functionality", () => {
     await page.goto('http://localhost:3000/')
   })
 
+  // test('Verify Login with Valid Credentials', async ({ page }) => {
+
+  //   await page.goto('http://localhost:3000/')
+  // })
+
 })
 
 
-  test('Verify Login with Valid Credentials', async ({ page }) => {
+for(let i=1 ; i<=10 ; i--){
+ 
+    test(`Verify Login with Valid Credentials - ${i}`, async ({ page }) => {
     await page.goto('/web/index.php/auth/login');
     await page.getByRole('textbox', { name: 'Username' }).click();
     await page.getByRole('textbox', { name: 'Username' }).fill('Admin');
@@ -20,8 +27,12 @@ test.describe("Login functionality", () => {
     await page.getByRole("button", { name: 'Login' }).click();
     await expect(page.getByRole('heading', { name: 'Dashboard' })).toBeVisible();
 
-
   });
+
+}
+
+
+
 
 //Accebility testing 
 
