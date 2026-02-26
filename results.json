@@ -18,7 +18,7 @@
       {
         "outputDir": "D:/Techifynow/LearnPlaywrightTechifynowB3/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 1,
         "metadata": {
           "actualWorkers": 1
         },
@@ -34,7 +34,7 @@
       {
         "outputDir": "D:/Techifynow/LearnPlaywrightTechifynowB3/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 1,
         "metadata": {
           "actualWorkers": 1
         },
@@ -50,7 +50,7 @@
       {
         "outputDir": "D:/Techifynow/LearnPlaywrightTechifynowB3/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 1,
         "metadata": {
           "actualWorkers": 1
         },
@@ -89,20 +89,20 @@
     "shard": null,
     "tags": [],
     "updateSnapshots": "missing",
-    "updateSourceMethod": "3way",
+    "updateSourceMethod": "patch",
     "version": "1.58.0",
-    "workers": 1,
+    "workers": 4,
     "webServer": null
   },
   "suites": [
     {
-      "title": "admin\\datadriventesting.spec.js",
-      "file": "admin/datadriventesting.spec.js",
+      "title": "getalltext.spec.js",
+      "file": "getalltext.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Verify admin User can add Job Title - jobtitle1",
+          "title": "Get all text of a elements",
           "ok": true,
           "tags": [],
           "tests": [
@@ -110,38 +110,39 @@
               "timeout": 45000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 24985,
+                  "duration": 18330,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Launched URL\n"
-                    },
-                    {
-                      "text": "Username Entered\n"
-                    },
-                    {
-                      "text": "Password Entered\n"
-                    },
-                    {
-                      "text": "Click on Login Button\n"
+                      "text": "[\n  \u001b[32m'Admin'\u001b[39m,       \u001b[32m'PIM'\u001b[39m,\n  \u001b[32m'Leave'\u001b[39m,       \u001b[32m'Time'\u001b[39m,\n  \u001b[32m'Recruitment'\u001b[39m, \u001b[32m'My Info'\u001b[39m,\n  \u001b[32m'Performance'\u001b[39m, \u001b[32m'Dashboard'\u001b[39m,\n  \u001b[32m'Directory'\u001b[39m,   \u001b[32m'Maintenance'\u001b[39m,\n  \u001b[32m'Claim'\u001b[39m,       \u001b[32m'Buzz'\u001b[39m\n]\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-02-23T15:00:23.413Z",
+                  "startTime": "2026-02-26T14:48:15.540Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\admin-datadriventesting-Ve-c4530-n-add-Job-Title---jobtitle1-Google-Chrome\\test-finished-1.png"
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\getalltext-Get-all-text-of-a-elements-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\getalltext-Get-all-text-of-a-elements-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\getalltext-Get-all-text-of-a-elements-chromium\\trace.zip"
                     }
                   ]
                 }
@@ -149,125 +150,19 @@
               "status": "expected"
             }
           ],
-          "id": "ca60fa74617d6a3ebe83-680b1cfeedbd15676821",
-          "file": "admin/datadriventesting.spec.js",
-          "line": 12,
-          "column": 9
-        },
-        {
-          "title": "Verify admin User can add Job Title - jobtitle2",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 28389,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Launched URL\n"
-                    },
-                    {
-                      "text": "Username Entered\n"
-                    },
-                    {
-                      "text": "Password Entered\n"
-                    },
-                    {
-                      "text": "Click on Login Button\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-02-23T15:00:48.654Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\admin-datadriventesting-Ve-97961-n-add-Job-Title---jobtitle2-Google-Chrome\\test-finished-1.png"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "ca60fa74617d6a3ebe83-35ba8bb0e720c5533cd4",
-          "file": "admin/datadriventesting.spec.js",
-          "line": 12,
-          "column": 9
-        },
-        {
-          "title": "Verify admin User can add Job Title - jobtitle3",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 19059,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Launched URL\n"
-                    },
-                    {
-                      "text": "Username Entered\n"
-                    },
-                    {
-                      "text": "Password Entered\n"
-                    },
-                    {
-                      "text": "Click on Login Button\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-02-23T15:01:17.117Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\admin-datadriventesting-Ve-59f17-n-add-Job-Title---jobtitle3-Google-Chrome\\test-finished-1.png"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "ca60fa74617d6a3ebe83-7ee0ad2696be27b0b5dc",
-          "file": "admin/datadriventesting.spec.js",
-          "line": 12,
-          "column": 9
+          "id": "a43a9a3285dea8c412f2-189cc39183df6278e12e",
+          "file": "getalltext.spec.js",
+          "line": 5,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-23T15:00:17.275Z",
-    "duration": 79036.39299999969,
-    "expected": 3,
+    "startTime": "2026-02-26T14:48:11.690Z",
+    "duration": 24542.745000000003,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

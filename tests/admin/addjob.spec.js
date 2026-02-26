@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 const ExcelJS = require('exceljs');
 
-test(`Verify admin User can add Job Title`, async ({ page }) => {
+test(`Verify admin User can add Job Title`, async  ({ page }) => {
 
     const workbook = new ExcelJS.Workbook();
     await workbook.xlsx.readFile('testdata/jobtitle.xlsx');

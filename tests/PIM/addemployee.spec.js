@@ -1,5 +1,7 @@
 import { test, expect } from '@playwright/test';
 
+const credentials = ["Admin", "admin123"]
+
 test('Verify admin User can add Employee', async ({ page }) => {
 
     await page.goto("/web/index.php/auth/login")
@@ -9,9 +11,9 @@ test('Verify admin User can add Employee', async ({ page }) => {
     await expect(page.locator("img[alt='company-branding']")).toBeVisible()
     console.log("Logo Visible")
 
-    await page.locator("input[name='username']").fill(process.env.APP_USERNAME) //30 sec
+    await page.locator("input[name='username']").fill(credentials[0]) //30 sec
     console.log("Username Entered ")
-    await page.locator("//input[@type='password']").fill(process.env.APP_PASSWORD)
+    await page.locator("//input[@type='password']").fill(credentials[1])
     console.log("Password Entered ")
     await page.locator("//button[@type='submit']").click({ timeout: 60000 })
     console.log("click on Login Button ")

@@ -136,3 +136,30 @@ console.log(generateIndianMobileNumber());
 // Arrays 
 
 
+
+// function with Params 
+
+// function without params 
+
+// return keyword
+
+// function with Params 
+
+// function without params 
+
+//Anonymous function 
+
+// function (){
+
+//     //body 
+// }
+
+
+// callback functions
+
+// Higer order function 
+
+// Closure functions 
+
+
+// Arrow functions 
