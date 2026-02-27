@@ -96,13 +96,13 @@
   },
   "suites": [
     {
-      "title": "getalltext.spec.js",
-      "file": "getalltext.spec.js",
+      "title": "extracttextnlogin.spec.js",
+      "file": "extracttextnlogin.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Get all text of a elements",
+          "title": "Verify Login with Valid Credentials",
           "ok": true,
           "tags": [],
           "tests": [
@@ -117,32 +117,35 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 18330,
+                  "duration": 13462,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "[\n  \u001b[32m'Admin'\u001b[39m,       \u001b[32m'PIM'\u001b[39m,\n  \u001b[32m'Leave'\u001b[39m,       \u001b[32m'Time'\u001b[39m,\n  \u001b[32m'Recruitment'\u001b[39m, \u001b[32m'My Info'\u001b[39m,\n  \u001b[32m'Performance'\u001b[39m, \u001b[32m'Dashboard'\u001b[39m,\n  \u001b[32m'Directory'\u001b[39m,   \u001b[32m'Maintenance'\u001b[39m,\n  \u001b[32m'Claim'\u001b[39m,       \u001b[32m'Buzz'\u001b[39m\n]\n"
+                      "text": "Username : Admin\n"
+                    },
+                    {
+                      "text": "Password : admin123\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-02-26T14:48:15.540Z",
+                  "startTime": "2026-02-27T15:00:26.503Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\getalltext-Get-all-text-of-a-elements-chromium\\test-finished-1.png"
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\extracttextnlogin-Verify-Login-with-Valid-Credentials-chromium\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\getalltext-Get-all-text-of-a-elements-chromium\\video.webm"
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\extracttextnlogin-Verify-Login-with-Valid-Credentials-chromium\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\getalltext-Get-all-text-of-a-elements-chromium\\trace.zip"
+                      "path": "D:\\Techifynow\\LearnPlaywrightTechifynowB3\\test-results\\extracttextnlogin-Verify-Login-with-Valid-Credentials-chromium\\trace.zip"
                     }
                   ]
                 }
@@ -150,8 +153,8 @@
               "status": "expected"
             }
           ],
-          "id": "a43a9a3285dea8c412f2-189cc39183df6278e12e",
-          "file": "getalltext.spec.js",
+          "id": "ed976fe9c5889449e6bb-3ee9fe0ff38e64eb7daa",
+          "file": "extracttextnlogin.spec.js",
           "line": 5,
           "column": 5
         }
@@ -160,8 +163,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-26T14:48:11.690Z",
-    "duration": 24542.745000000003,
+    "startTime": "2026-02-27T15:00:22.451Z",
+    "duration": 19523.607,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

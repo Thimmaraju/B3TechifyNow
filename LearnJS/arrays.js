@@ -48,46 +48,46 @@
 
 
 
-arr = ["Raju", "Arun", "Sujith", "Sowmya", "Pranathi", "Abhi"].join("")  // conmverts string to array
+// arr = ["Raju", "Arun", "Sujith", "Sowmya", "Pranathi", "Abhi"].join("")  // conmverts string to array
 
-console.log(arr)
+// console.log(arr)
 
-str = "This is Javascript class"
+// str = "This is Javascript class"
 
-arr1 = str.split(" ") // converts  the string to array 
+// arr1 = str.split(" ") // converts  the string to array 
 
-console.log(arr1)
-
-
-arr2 = ["Raju", "Arun", "Sujith", "Sowmya", "Pranathi", "Abhi"]
-
-console.log(arr2.includes("Srilatha")) // true // Element is present true / false 
-
-arr3 = ["eat", "sleep"]
-
-// arr3.push("work") // push will adds element at the end
-
-// arr3.push("Exersize")
+// console.log(arr1)
 
 
-// arr3.unshift("read") // Adds the element in the beginning 
+// arr2 = ["Raju", "Arun", "Sujith", "Sowmya", "Pranathi", "Abhi"]
 
-// arr3.unshift("Walk")
+// console.log(arr2.includes("Srilatha")) // true // Element is present true / false 
 
-// pop()
+// arr3 = ["eat", "sleep"]
 
-// shift()
-console.log(arr3)
+// // arr3.push("work") // push will adds element at the end
 
-arr4 = [ 'Walk', 'read', 'eat', 'sleep' ]
+// // arr3.push("Exersize")
 
-// arr4.pop() // removes last element 
-// arr4.pop()
 
-// arr4.shift() // removes the first element
+// // arr3.unshift("read") // Adds the element in the beginning 
 
-// arr4.shift()
-console.log(arr4)
+// // arr3.unshift("Walk")
+
+// // pop()
+
+// // shift()
+// console.log(arr3)
+
+// arr4 = [ 'Walk', 'read', 'eat', 'sleep' ]
+
+// // arr4.pop() // removes last element 
+// // arr4.pop()
+
+// // arr4.shift() // removes the first element
+
+// // arr4.shift()
+// console.log(arr4)
 
 // 6 methods
 
@@ -106,3 +106,28 @@ console.log(arr4)
 //Java 
 
 //arr = {1,1,2,6,7,8,2,3,4,4,7}  valid in Java
+
+
+arr4 = [ 'Walk', 'read', 'eat', 'sleep' ]
+
+
+// arr4.forEach( element => {
+
+//     console.log("Loop starts")
+
+//     console.log(element)
+
+//     console.log("Loop Ends ")
+    
+// });
+
+
+for(let element of arr4){
+
+        console.log("Loop starts")
+
+    console.log(element)
+
+    console.log("Loop Ends ")
+
+}
