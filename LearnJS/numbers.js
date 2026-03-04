@@ -88,7 +88,7 @@ console.log(x)
 
 // class 
 // methods
-// object 
+// object of class
 // constructor 
 // static 
 // this 
