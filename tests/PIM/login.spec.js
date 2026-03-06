@@ -1,17 +1,27 @@
 import { test, expect } from '@playwright/test';
 
 
-   let credentials = {
+let credentials = {
 
-        username : "Admin",
-        password : "admin123",
-        wrongusername: "fbfnvb"
-   }
+  username: "Admin",
+  password: "admin123",
+  wrongusername: "fbfnvb"
+}
 
-  test('Verify Login with Valid Credentials', async ({ page }) => {
+test.describe("Verify Login functionality", () => {
+
+  test.beforeEach( async ({page}) =>{
     await page.goto('/web/index.php/auth/login');
+
+  })
+
+
+  test.only('Verify Login with Valid Credentials', async ({ page }) => {
+
+     test.slow()
+    //2 se
     console.log("Lauched URL ")
-    await page.locator("input[name='username']").fill(credentials.username) //30 sec
+    await page.locator("input[name='usernamefbgv']").fill(credentials.username) //30 sec
     console.log("Username Entered ")
     await page.locator("//input[@type='password']").fill(credentials['password'])
     await page.getByRole('button', { name: 'Login' }).click();
@@ -24,7 +34,7 @@ import { test, expect } from '@playwright/test';
 
 
   test('Verify login with invalid Username and Valid Password', async ({ page }) => {
-    await page.goto('/web/index.php/auth/login');
+   
     await page.getByRole('textbox', { name: 'Username' }).click();
     await page.getByRole('textbox', { name: 'Username' }).fill(credentials.wrongusername);
     await page.getByRole('textbox', { name: 'Password' }).click();
@@ -35,7 +45,7 @@ import { test, expect } from '@playwright/test';
 
 
   test('Verify login with valid Username and invalid Password', async ({ page }) => {
-    await page.goto('/web/index.php/auth/login');
+   
     await page.getByRole('textbox', { name: 'Username' }).click();
     await page.getByRole('textbox', { name: 'Username' }).fill('Admin');
     await page.getByRole('textbox', { name: 'Password' }).click();
@@ -47,7 +57,6 @@ import { test, expect } from '@playwright/test';
 
 
   test('Verify login with invalid Username and invalid Password', async ({ page }) => {
-    await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
     await page.getByRole('textbox', { name: 'Username' }).click();
     await page.getByRole('textbox', { name: 'Username' }).fill('vbkjf');
     await page.getByRole('textbox', { name: 'Password' }).click();
@@ -55,6 +64,9 @@ import { test, expect } from '@playwright/test';
     await page.getByRole('button', { name: 'Login' }).click();
     await expect(page.getByText('Invalid credentials')).toBeVisible();
   });
+
+})
+
 
 
 
